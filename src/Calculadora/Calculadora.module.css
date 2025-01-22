@@ -1,0 +1,55 @@
+.calculadora {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffaf40;
+    border-radius: 16px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.botaoCalcular {
+    margin: 18px auto;
+    width: 240px;
+    height: 24px;
+    border-radius: 8px;
+    background-color: #ff9f1a;
+}
+
+.tabelaImc {
+    width: 580px;
+    max-width: 100%;
+    border: solid 2px #d5d1d1;
+    background-color: #ffaf40;
+}
+
+.tabelaImc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.imcClass {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d5d1d1;
+}
+
+.tabelaImc li p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.tabelaImc li:first-child {
+    font-weight: bold;
+    background-color: #ff9f1a;
+}
+
+.destaque {
+    background-color: #ffe066;
+    font-weight: bold;
+}

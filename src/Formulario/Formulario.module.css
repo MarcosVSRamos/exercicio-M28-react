@@ -1,0 +1,37 @@
+.container {
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffaf40;
+    border-radius: 16px;
+    margin: 16px auto;
+    align-items: center;
+}
+
+.container h2 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.formItem{
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.formItem label {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+input {
+    border-radius: 6px;
+    max-width: 80px;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
