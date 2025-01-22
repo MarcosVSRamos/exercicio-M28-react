@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+.headerForm {
+    display: flex;
+    
+}
+
 .botaoCalcular {
     margin: 18px auto;
     width: 240px;
@@ -19,7 +24,6 @@
 
 .tabelaImc {
     width: 580px;
-    max-width: 100%;
     border: solid 2px #d5d1d1;
     background-color: #ffaf40;
 }

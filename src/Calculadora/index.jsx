@@ -42,7 +42,7 @@ const Calculadora = ({ peso, altura, sexo, idade }) => {
             {imc && (
                 <div className={styles.tabelaImc}>
                     <ul>
-                        <li>
+                        <li className={styles.imcClass}>
                             <p>IMC</p>
                             <p>Classificação</p>
                             <p>Grau de obesidade</p>
